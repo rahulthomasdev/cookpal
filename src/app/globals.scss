@@ -1,0 +1,172 @@
+.ant-layout-sider-trigger {
+  background-color: white !important;
+  .anticon {
+    color: black !important;
+  }
+}
+.ant-menu-item-selected {
+  color: #475569 !important;
+  font-weight: bolder;
+  background-color: white !important;
+  border-right: 2px solid #475569;
+  border-radius: 0 !important;
+}
+.ant-menu-item:not(.ant-menu-item-selected) {
+  opacity: 50% !important;
+}
+.ant-menu-item {
+  margin-block: 16px !important;
+}
+.slick-slide {
+  padding-right: 20px;
+  height: 100% !important;
+  padding-bottom: 10px;
+}
+.slick-list {
+  .ant-card-cover img {
+    height: 150px !important;
+    object-fit: cover;
+    padding: 20px;
+    border-radius: 40px;
+  }
+  .ant-card {
+    border-radius: 30px !important;
+  }
+  .ant-card-body {
+    padding-top: 0px !important;
+  }
+}
+.__recipe_carousel {
+  .ant-card-cover {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .__time_duration_label {
+    position: absolute;
+    bottom: 25px;
+    left: 10%;
+    width: auto !important;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.__fav_btn button {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border: none !important;
+  border-radius: 50% !important;
+  background-color: white;
+}
+.__fav_btn button:hover {
+  color: red !important;
+}
+.__heart_filled {
+  color: red;
+}
+.__heart_outlined:hover {
+  color: red;
+}
+.__recipecard_header {
+  display: flex;
+  justify-content: space-between;
+}
+.__filter_btn:hover {
+  color: gray !important;
+}
+.__explore_recipe {
+  .ant-card {
+    height: 100%;
+  }
+  .ant-card-cover {
+    position: relative !important;
+  }
+  .__time_duration_label {
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    width: auto !important;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* CSS for the fade-in/fade-out animation */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    max-height: 1000px;
+  }
+  to {
+    opacity: 0;
+    max-height: 0;
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+  max-height: 0;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  max-height: 1000px;
+  transition: opacity 0.4s ease-in, max-height 0.7s ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+  max-height: 1000px;
+  animation: fadeOut 0.5s ease-out;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.4s ease-out, max-height 0.7s ease-out;
+}
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+}
+.slick-slide > div,
+.slick-slide > div > div,
+.slick-slide > div > div > div {
+  height: 100% !important;
+}
+.ant-spin-text {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.ant-spin-dot-item {
+  background: rgb(222, 87, 109) !important;
+}
+.__add_review_modal {
+  .ant-btn-primary {
+    background-color: #16a34a !important;
+  }
+  .ant-modal-title {
+    font-weight: bold;
+    font-size: large;
+  }
+}
