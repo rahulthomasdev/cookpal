@@ -1,4 +1,5 @@
 "use client";
+import store from "@/redux/store";
 import {
   CompassOutlined,
   HeartOutlined,
@@ -32,6 +33,13 @@ const items = [
   getItem("Settings", 6, <SettingOutlined className="!text-lg" />, "/settings"),
   getItem("Profile", 7, <ProfileOutlined className="!text-lg" />, "/profile"),
   getItem("Test", 8, <ProfileOutlined className="!text-lg" />, "/test"),
+  getItem("chatbox", 9, <ProfileOutlined className="!text-lg" />, "/chatbox"),
+  getItem(
+    "chatbox_complete",
+    10,
+    <ProfileOutlined className="!text-lg" />,
+    "/chatbox_complete"
+  ),
 ];
 function getItem(label, key, icon, link) {
   return {
@@ -107,6 +115,7 @@ export default function RootLayout({ children }) {
             style={{
               minHeight: "100vh",
             }}
+            store={store}
           >
             <Sider
               collapsible

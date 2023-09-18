@@ -1,0 +1,41 @@
+
+{"type": "FeatureCollection",
+"generator": "overpass-ide",
+"copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+"timestamp": "2023-02-07T09:21:34Z",
+"features": [{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            76.315027, 9.968368
+        ]
+      },
+    "properties": {
+      "name": "Corbel",
+      "@id": "node/1",
+      "leisure": "",
+      "sport": ""
+    },
+    "id": "node/1"
+},
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            76.362355, 10.012086
+        ]
+      },
+    "properties": {
+      "name": "Corbel",
+      "@id": "node/2",
+      "leisure": "",
+      "sport": ""
+    },
+    "id": "node/2"
+}
+]
+  }
+
+  
